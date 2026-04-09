@@ -43,10 +43,24 @@
   }
 }
 
-/* Dot grid background pattern */
+/* Dot grid background pattern (legacy) */
 .dot-pattern {
   background-image: radial-gradient(circle, #CBD5E1 1px, transparent 1px);
   background-size: 24px 24px;
+}
+
+/* Line grid pattern — used in dark sections */
+.grid-lines-dark {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Selection highlight */
+::selection {
+  background: rgba(37, 99, 235, 0.15);
+  color: #0A0A0A;
 }
 
 /* Phone mockup styles */
