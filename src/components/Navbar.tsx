@@ -52,7 +52,13 @@ export default function Navbar() {
           </nav>
 
           {/* CTA */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="https://orcalinkapp.com/login"
+              className="text-sm font-medium text-muted hover:text-dark transition-colors"
+            >
+              Entrar
+            </a>
             <a
               href="#precos"
               className="btn-primary text-sm px-5 py-2.5"

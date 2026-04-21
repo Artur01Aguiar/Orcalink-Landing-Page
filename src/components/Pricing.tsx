@@ -30,7 +30,7 @@ const plans: Plan[] = [
     ],
     cta: 'Criar conta grátis',
     ctaNote: 'Sem cartão de crédito',
-    ctaLink: '#',
+    ctaLink: 'https://orcalinkapp.com/login',
   },
   {
     name: 'Pro',
@@ -47,7 +47,7 @@ const plans: Plan[] = [
       'Suporte prioritário',
     ],
     cta: 'Começar 14 dias grátis',
-    ctaLink: '#',
+    ctaLink: 'https://orcalinkapp.com/login',
   },
   {
     name: 'Business',
@@ -62,7 +62,7 @@ const plans: Plan[] = [
       'API de integrações',
     ],
     cta: 'Falar com a gente',
-    ctaLink: '#',
+    ctaLink: 'https://orcalinkapp.com/login',
   },
 ]
 
