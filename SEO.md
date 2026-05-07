@@ -8,7 +8,7 @@
   - 65 caracteres (limite Google: 60-70)
 - **Description:** 159 caracteres com call-to-action e nichos
 - **Keywords:** 12 termos relevantes (Google não usa muito, Bing/DuckDuckGo usam)
-- **Canonical:** previne conteúdo duplicado entre orcalink.com.br e variações
+- **Canonical:** previne conteúdo duplicado entre orcalinkapp.com e variações
 - **Robots:** `index, follow, max-image-preview:large` (ativa thumbnails ricos no Discover)
 
 ### 2. Open Graph / Twitter Card
@@ -32,11 +32,11 @@ Três schemas no `<head>`:
 
 ### Passo 1 — Subir mudanças (eu já comito e dou push)
 Após o push, esperar o deploy da Vercel automático rodar. Conferir:
-- https://orcalink.com.br/robots.txt → deve abrir
-- https://orcalink.com.br/sitemap.xml → deve abrir
+- https://orcalinkapp.com/robots.txt → deve abrir
+- https://orcalinkapp.com/sitemap.xml → deve abrir
 
 ### Passo 2 — Confirmar domínio nas tags
-Se o domínio principal **não** for `orcalink.com.br` (ex: `orcalinkapp.com`), faça find/replace nesses arquivos:
+Se o domínio principal **não** for `orcalinkapp.com` (ex: `orcalinkapp.com`), faça find/replace nesses arquivos:
 - `index.html`
 - `public/robots.txt`
 - `public/sitemap.xml`
@@ -52,9 +52,9 @@ Sem isso, o link compartilhado fica feio.
 
 ### Passo 4 — Google Search Console (5 min)
 1. Entrar em https://search.google.com/search-console
-2. Adicionar propriedade: `https://orcalink.com.br/`
+2. Adicionar propriedade: `https://orcalinkapp.com/`
 3. Verificar via DNS (Vercel) ou meta tag (eu adiciono se você quiser)
-4. Submeter sitemap: `https://orcalink.com.br/sitemap.xml`
+4. Submeter sitemap: `https://orcalinkapp.com/sitemap.xml`
 5. Clicar em "Solicitar indexação" pra home
 
 ### Passo 5 — Bing Webmaster Tools (5 min, opcional)
@@ -62,7 +62,7 @@ Sem isso, o link compartilhado fica feio.
 2. Importar do Google Search Console (1 clique)
 
 ### Passo 6 — Conferir indexação após 48h
-- Buscar `site:orcalink.com.br` no Google
+- Buscar `site:orcalinkapp.com` no Google
 - Se aparecer, tá indexado
 
 ---

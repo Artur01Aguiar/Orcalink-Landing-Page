@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://orcalink.com.br/sitemap.xml
+Sitemap: https://orcalinkapp.com/sitemap.xml
 
 # Crawl-delay opcional (Google ignora; deixar comentado)
 # Crawl-delay: 1
